@@ -18,6 +18,7 @@ app.get('/shoes', (req, res) => {
     })
 });
 
+// -- post route
 app.post('/shoes/:id', (req, res) => {
     const { id } = req.params;
     const { size } = req.body;
